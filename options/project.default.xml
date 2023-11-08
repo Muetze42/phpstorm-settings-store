@@ -50,6 +50,7 @@
             -->
             <component name="PHPCodeSnifferOptionsConfiguration">
                 <option name="codingStandard" value="PSR12"/>
+                <option name="extensions" value="php,inc" /> <!-- Only php & inc files -->
                 <option name="highlightLevel" value="WARNING"/>
                 <option name="transferred" value="true"/>
             </component>
