@@ -96,6 +96,12 @@
             <component name="PhpExternalFormatter">
                 <option name="externalFormatter" value="PHP_CS_FIXER" />
             </component>
+              <!-- Disable Auto Add External Files To Git And Question -->
+              <component name="PropertiesComponent">{
+                "keyToString": {
+                "ASKED_ADD_EXTERNAL_FILES": "true"
+                }
+                }</component>
         </defaultProject>
     </component>
 </application>
