@@ -29,12 +29,12 @@
                 <profile version="1.0">
                     <option name="myName" value="Project Default"/>
                     <!--
-                     * Enable PHPCS As Default
+                     * Enable PHPMD As Default
                     -->
                     <inspection_tool class="MessDetectorValidationInspection" enabled="true" level="WEAK WARNING"
                                      enabled_by_default="true"/>
                     <!--
-                     * Enable PHPMD As Default
+                     * Enable PHPCS As Default
                     -->
                     <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WEAK WARNING"
                                      enabled_by_default="true"/>
